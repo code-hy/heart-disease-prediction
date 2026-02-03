@@ -1,0 +1,8 @@
+pandas
+numpy>=2.0.0
+scikit-learn>=1.7.0
+fastapi
+uvicorn[standard]
+pydantic
+xgboost
+joblib

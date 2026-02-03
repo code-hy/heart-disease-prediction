@@ -5,6 +5,7 @@ This project uses Machine Learning to predict the presence of heart disease base
 
 ## 2. Dataset
 We use the Heart Disease Dataset (available on Kaggle).
+https://www.kaggle.com/datasets/yasserh/heart-disease-dataset/data
 
 Source: Kaggle - Heart Disease Dataset
 Download: Place heart.csv inside a folder named data/.

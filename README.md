@@ -1,5 +1,5 @@
 
-# README.md
+
 ## 1. Problem Description
 This project uses Machine Learning to predict the presence of heart disease based on clinical data. It is deployed as a high-performance asynchronous API using **FastAPI**.
 

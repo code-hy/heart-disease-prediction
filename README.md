@@ -11,23 +11,29 @@ Source: Kaggle - Heart Disease Dataset
 Download: Place heart.csv inside a folder named data/.
 ## 3. Environment Setup (Using uv)
 We use `uv` for fast dependency management.
-
+``` bash
 pip install uv
 uv venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 uv pip sync
+``` 
 ## 4. Running the Project
 ### Step 1: Training
-python train.py
+``` bash
+ python train.py
+ ``` 
+
 ### Step 2: Running the API
 We use Uvicorn, a lightning-fast ASGI server, to run FastAPI.
-
+``` bash
 uvicorn predict:app --reload
+``` 
+
 ### Step 3: Testing
 Visit http://127.0.0.1:8000/docs for the interactive API documentation (Swagger UI).
 
 Or send a request:
-
+``` bash 
 curl -X 'POST' \
   'http://127.0.0.1:8000/predict' \
   -H 'Content-Type: application/json' \
@@ -46,6 +52,7 @@ curl -X 'POST' \
   "ca": 2,
   "thal": 3
 }'
+``` 
 
 ## 5. Docker Deployment
 

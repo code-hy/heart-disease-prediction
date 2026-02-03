@@ -52,7 +52,11 @@ curl -X 'POST' \
   "ca": 2,
   "thal": 3
 }'
-``` 
+```
+
+Swagger Screen
+<img width="1547" height="880" alt="image" src="https://github.com/user-attachments/assets/34440398-ed32-483d-ae5b-3c37efd64254" />
+
 
 ## 5. Docker Deployment
 
